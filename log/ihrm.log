@@ -1,0 +1,31 @@
+2019-12-06 15:52:16,912 INFO [root] [test_ihrm_login.py(test_1_login_success:31)] - 登录接口返回数据为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '730832f1-c9e5-45d3-bbff-a3f95647bcd4'}
+2019-12-06 15:52:16,912 INFO [root] [test_ihrm_login.py(test_1_login_success:40)] - 保存的的登录token{'Content-Type': 'application/json', 'Authorization': 'Bearer 730832f1-c9e5-45d3-bbff-a3f95647bcd4'}
+2019-12-06 15:52:16,912 INFO [root] [test_ihrm_emp_parameterized.py(test_1_add_emp:19)] - hello
+2019-12-06 15:52:17,007 INFO [root] [test_ihrm_emp_parameterized.py(test_1_add_emp:21)] - 添加员工{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2019-12-06 15:53:10,214 INFO [root] [test_ihrm_login.py(test_1_login_success:31)] - 登录接口返回数据为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'a5b94e2d-f70d-4951-a08e-b4bc5dbd58a7'}
+2019-12-06 15:53:10,214 INFO [root] [test_ihrm_login.py(test_1_login_success:40)] - 保存的的登录token{'Content-Type': 'application/json', 'Authorization': 'Bearer a5b94e2d-f70d-4951-a08e-b4bc5dbd58a7'}
+2019-12-06 15:53:10,214 INFO [root] [test_ihrm_emp_parameterized.py(test_1_add_emp:19)] - hello
+2019-12-06 15:53:10,318 INFO [root] [test_ihrm_emp_parameterized.py(test_1_add_emp:21)] - 添加员工{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202858501151739904'}}
+2019-12-06 15:53:10,318 INFO [root] [test_ihrm_emp_parameterized.py(test_1_add_emp:26)] - 保存的员工ID：1202858501151739904
+2019-12-06 16:04:20,415 INFO [root] [test_ihrm_login.py(test_1_login_success:31)] - 登录接口返回数据为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '1fe16dc0-0914-460d-b412-14dae6851deb'}
+2019-12-06 16:04:20,415 INFO [root] [test_ihrm_login.py(test_1_login_success:40)] - 保存的的登录token{'Content-Type': 'application/json', 'Authorization': 'Bearer 1fe16dc0-0914-460d-b412-14dae6851deb'}
+2019-12-06 16:04:20,415 INFO [root] [test_ihrm_emp_parameterized.py(test_1_add_emp:19)] - hello
+2019-12-06 16:04:20,510 INFO [root] [test_ihrm_emp_parameterized.py(test_1_add_emp:21)] - 添加员工{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202861312161697792'}}
+2019-12-06 16:04:20,510 INFO [root] [test_ihrm_emp_parameterized.py(test_1_add_emp:26)] - 保存的员工ID：1202861312161697792
+2019-12-06 16:04:20,604 INFO [root] [test_ihrm_emp_parameterized.py(test_2_query_emp:31)] - 查询员工接口返回的数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202861312161697792', 'mobile': '13800001133', 'username': '比卡丘088', 'password': '3c1e6ad27509c16bc6ef8573b9876f07', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066238836272664576', 'timeOfEntry': '2019-11-05T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '111', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-29T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '财务部', 'roleIds': [], 'staffPhoto': None}}
+2019-12-06 16:04:20,702 INFO [root] [test_ihrm_emp_parameterized.py(test_3_modify_emp:36)] - 修改员工接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202861312161697792'}}
+2019-12-06 16:04:20,909 INFO [root] [test_ihrm_emp_parameterized.py(test_3_modify_emp:42)] - haha 
+2019-12-06 16:04:20,909 INFO [root] [test_ihrm_emp_parameterized.py(test_3_modify_emp:43)] - ----查询数据库中员工id为1202861312161697792的username是奥特曼和小怪物
+2019-12-06 16:04:20,909 INFO [root] [test_ihrm_emp_parameterized.py(test_3_modify_emp:44)] - haha1 
+2019-12-06 16:04:21,003 INFO [root] [test_ihrm_emp_parameterized.py(test_4_delete_emp:50)] - 删除员工接口返回的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2019-12-06 16:18:22,136 INFO [root] [test_ihrm_login.py(test_1_login_success:31)] - 登录接口返回数据为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '1cb0817a-91cb-4d06-bb63-dde758c18b53'}
+2019-12-06 16:18:22,136 INFO [root] [test_ihrm_login.py(test_1_login_success:40)] - 保存的的登录token{'Content-Type': 'application/json', 'Authorization': 'Bearer 1cb0817a-91cb-4d06-bb63-dde758c18b53'}
+2019-12-06 16:18:22,136 INFO [root] [test_ihrm_emp_parameterized.py(test_1_add_emp:20)] - hello
+2019-12-06 16:18:22,224 INFO [root] [test_ihrm_emp_parameterized.py(test_1_add_emp:22)] - 添加员工{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202864842578677760'}}
+2019-12-06 16:18:22,224 INFO [root] [test_ihrm_emp_parameterized.py(test_1_add_emp:27)] - 保存的员工ID：1202864842578677760
+2019-12-06 16:18:22,322 INFO [root] [test_ihrm_emp_parameterized.py(test_2_query_emp:32)] - 查询员工接口返回的数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202864842578677760', 'mobile': '13800001133', 'username': '比卡丘088', 'password': '3c1e6ad27509c16bc6ef8573b9876f07', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1066238836272664576', 'timeOfEntry': '2019-11-05T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '111', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-11-29T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '财务部', 'roleIds': [], 'staffPhoto': None}}
+2019-12-06 16:18:22,417 INFO [root] [test_ihrm_emp_parameterized.py(test_3_modify_emp:38)] - 修改员工接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1202864842578677760'}}
+2019-12-06 16:18:22,625 INFO [root] [test_ihrm_emp_parameterized.py(test_3_modify_emp:44)] - haha 
+2019-12-06 16:18:22,625 INFO [root] [test_ihrm_emp_parameterized.py(test_3_modify_emp:45)] - ----查询数据库中员工id为1202864842578677760的username是哪吒同学
+2019-12-06 16:18:22,625 INFO [root] [test_ihrm_emp_parameterized.py(test_3_modify_emp:46)] - haha1 
+2019-12-06 16:18:22,719 INFO [root] [test_ihrm_emp_parameterized.py(test_4_delete_emp:53)] - 删除员工接口返回的数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
