@@ -15,7 +15,7 @@ suite = unittest.TestSuite()
 suite.addTest(unittest.makeSuite(TestIHRMLogin))
 suite.addTest(unittest.makeSuite(TestEmpParameterized))
 #4定义文件的路径和名称
-file_path = BASE_DIR + '/report/ihrm{}.html'.format(time.strftime('%Y%m%d%H%M%S'))
+file_path = BASE_DIR + '/report/ihrm.html'
 #5打开文件
 with open(file_path,mode='wb') as f:
     #6实例化HTMLTestRunner
